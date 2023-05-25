@@ -9,7 +9,7 @@ namespace train
 {
     class MyTrain
     {
-        int x, y, l, n; 
+        protected int x, y, l, n; 
 
         List<MyVagon> vagons = new List<MyVagon>(); 
         Random rnd = new Random();

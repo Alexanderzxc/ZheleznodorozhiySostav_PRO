@@ -25,7 +25,7 @@ namespace train
 
         public void Draw(Graphics gr) 
         {
-            gr.FillEllipse(new SolidBrush(Color.LightCoral), X - R, Y - R, 2 * R, 2 * R);
+            gr.FillEllipse(new SolidBrush(Color.Red), X - R, Y - R, 2 * R, 2 * R);
         }
     }
 }

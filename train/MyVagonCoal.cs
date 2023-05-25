@@ -24,7 +24,7 @@ namespace train
             point[1] = new PointF(x + l, y); 
             point[2] = new PointF(x + (l / 2), y - 15); 
 
-            gr.FillPolygon(new SolidBrush(Color.DarkGray), point); 
+            gr.FillPolygon(new SolidBrush(Color.Black), point); 
         }
     }
 }

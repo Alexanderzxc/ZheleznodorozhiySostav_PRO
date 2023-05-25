@@ -33,11 +33,11 @@ namespace train
 
             base.x = X;
             base.y = Y;
-            base.w = L;
+            w = L;
 
-            this.x = X;
-            this.y = Y;
-            this.l = L;
+            x = X;
+            y = Y;
+            l = L;
             wheel1 = new MyCircle(X + L / 6, Y + L / 2, L / 6);
             wheel2 = new MyCircle(X + 5 * L / 6, Y + L / 2, L / 6);
         }

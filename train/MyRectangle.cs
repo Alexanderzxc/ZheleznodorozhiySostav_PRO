@@ -23,17 +23,10 @@ namespace train
             h = l_ / 2;
             w = l_;
         }
-        public MyRectangle(int x_, int y_, int h_, int w_) 
-        {
-            x = x_;
-            y = y_;
-            h = h_;
-            w = w_;
-        }
 
         public virtual void Draw(Graphics gr) 
         {
-            gr.FillRectangle(new SolidBrush(Color.SkyBlue), X, Y, W, H);
+            gr.FillRectangle(new SolidBrush(Color.Blue), X, Y, W, H);
         }
     }
 }
